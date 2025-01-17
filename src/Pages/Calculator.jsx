@@ -32,10 +32,8 @@ if (value === "AC")
         <div className="col-lg-4"></div>
         <div className="col-lg-4 border rounded d-flex justify-content-center bg-warning mx-5">
           <div className="px-3 py-2">
-            {/* Display */}
             <input  style={{height: '50px',width: '400px',marginTop: '50px',backgroundColor: 'black',color: 'white',textAlign: 'right'}}type="text" value={result || input} placeholder="0" readOnly/>
             <div className="m-3">
-              {/* Button Rows */}
               <div className="row justify-content-between mb-3">
                 <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("AC")}>AC</Button>
                 <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("DEL")}>DEL</Button>
@@ -43,67 +41,34 @@ if (value === "AC")
                 
               </div>
               <div className="row justify-content-between mb-3">
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("9")}>
-                  9
-                </Button>
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("8")}>
-                  8
-                </Button>
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("7")}>
-                  7
-                </Button>
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("*")}>
-                  *
-                </Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("9")}>9</Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("8")}>8</Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("7")}>7</Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("*")}>*</Button>
               </div>
               <div className="row justify-content-between mb-3">
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("6")}>
-                  6
-                </Button>
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("5")}>
-                  5
-                </Button>
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("4")}>
-                  4
-                </Button>
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("+")}>
-                  +
-                </Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("6")}>6</Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("5")}>5</Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("4")}>4</Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("+")}>+</Button>
               </div>
               <div className="row justify-content-between mb-3">
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("3")}>
-                  3
-                </Button>
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("2")}>
-                  2
-                </Button>
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("1")}>
-                  1
-                </Button>
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("+")}>
-                  +
-                </Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("3")}>3</Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("2")}>2 </Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("1")}>1</Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("-")}></Button>
               </div>
               <div className="row justify-content-between mb-3">
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("0")}>
-                  0
-                </Button>
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick(".")}>
-                  .
-                </Button>
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("-")}>
-                  -
-                </Button>
-                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("=")}>
-                  =
-                </Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("0")}>0</Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick(".")}>.</Button>
+                <Button style={{ width: '80px' }} variant="light" onClick={() => handleButtonClick("=")}>=</Button>
               </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4"></div>
-      </div>
     </div>
+    </div>
+  </div>
+<div className="col-lg-4"></div>
+</div>
+</div>
   );
 };
 
